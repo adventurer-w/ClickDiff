@@ -25,10 +25,8 @@ def test(opt, device):
     diffusion_moudle_2 = moudle_2(opt)
     idxs = 0
 
-    weight_root_folder_1 = "/data-home/egoego_release-main/diffusion_ARCTIC_runs_new/v6_stage1_grab_2048x5/all_small_bs64/weights"
-    diffusion_weight_path_1 = os.path.join(weight_root_folder_1, "model-429.pt")
-    weight_root_folder_2 = "/data-home/egoego_release-main/diffusion_ARCTIC_runs_new/v6_stage2_grab_2048x5/all_small_bs64/weights"
-    diffusion_weight_path_2 = os.path.join(weight_root_folder_2, "model-400.pt")
+    diffusion_weight_path_1 = "checkpoint/semantic_conditional_moudle.pt"
+    diffusion_weight_path_2 = "checkpoint/contact_conditional_moudle.pt"
 
     diffusion_moudle_1.load_weight_path(diffusion_weight_path_1)
     diffusion_moudle_2.load_weight_path(diffusion_weight_path_2)
