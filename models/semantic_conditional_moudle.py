@@ -15,7 +15,6 @@ import pytorch3d.transforms as transforms
 from ema_pytorch import EMA
 
 from models.pointnet import PointNetfeat2 #as PointNetfeat #as pointnet
-# from egoego.model.pointnet import PointNetfeat
 import torch.nn.functional as F
 from ipdb import set_trace as st
 import torch.nn as nn
@@ -181,7 +180,6 @@ def get_moudle(opt, run_demo=False):
     pointnet_model = PointNetfeat2(3,64,64,1024,global_feat=True)
     #pointnet_model = pointnet(global_feat=True, feature_transform=True, channel=3)
     pointnet_model.to(device)
-    
     
     trainer = Trainer(
         opt,

@@ -14,10 +14,8 @@ from torch.utils import data
 import pytorch3d.transforms as transforms 
 from ema_pytorch import EMA
 
-# from egoego.data.amass_diffusion_dataset import AMASSDataset, quat_ik_torch, run_smpl_model 
 
 from models.pointnet import PointNetfeat2 #as PointNetfeat #as pointnet
-# from egoego.model.pointnet import PointNetfeat
 import torch.nn.functional as F
 from ipdb import set_trace as st
 import torch.nn as nn

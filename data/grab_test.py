@@ -34,7 +34,7 @@ class GrabDataset(Dataset):
 
     def _load_data(self):
         data_p = op.join(
-            f"/data-home/arctic-master/outputs_grab/grab_final/grab_test.npy"
+            f"grab_data/grab_demo.npy"
         )
         
         logger.info(f"Loading {data_p}")
