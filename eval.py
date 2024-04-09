@@ -15,8 +15,8 @@ from mano.mano_models import build_mano_aa
 from torch.utils import data
 from ipdb import set_trace as st
 import trimesh
-from models.semantic_conditional_model import get_moudle as  moudle_1
-from models.contact_conditional_model import get_moudle as moudle_2
+from models.semantic_conditional_module import get_moudle as  moudle_1
+from models.contact_conditional_module import get_moudle as moudle_2
 from data.grab_test import GrabDataset
  
 
