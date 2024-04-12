@@ -1,6 +1,6 @@
-# FingerDiff
+# ClickDiff
 
-Official code for "FingerDiff : Controllable Semantic Contact Map for Grasps Generation"
+Official code for "ClickDiff: Click to define Semantic Contact Map for Interactive Grasp Generation with Diffusion Models"
 
 ![pipeline_00](assets/pipeline_00.png)
 

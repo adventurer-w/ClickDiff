@@ -25,8 +25,8 @@ def test(opt, device):
     diffusion_moudle_2 = moudle_2(opt)
     idxs = 0
 
-    diffusion_weight_path_1 = "checkpoint/semantic_conditional_moudle.pt"
-    diffusion_weight_path_2 = "checkpoint/contact_conditional_moudle.pt"
+    diffusion_weight_path_1 = "checkpoint/semantic_conditional_module.pt"
+    diffusion_weight_path_2 = "checkpoint/contact_conditional_module.pt"
 
     diffusion_moudle_1.load_weight_path(diffusion_weight_path_1)
     diffusion_moudle_2.load_weight_path(diffusion_weight_path_2)
