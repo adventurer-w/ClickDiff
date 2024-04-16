@@ -1,9 +1,8 @@
 # ClickDiff
 
-Official code for "ClickDiff: Click to define Semantic Contact Map for Interactive Grasp Generation with Diffusion Models"
+Official code for "ClickDiff: Click to Induce Semantic Contact Map for Controllable Grasp Generation with Diffusion Models"
 
 ![pipeline_00](assets/pipeline_00.png)
-
 
 
 ## DEMO
