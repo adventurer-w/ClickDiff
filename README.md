@@ -1,6 +1,7 @@
 # ClickDiff
+[![Paper](https://img.shields.io/badge/cs.CV-Paper-b31b1b?logo=arxiv&logoColor=red)](https://arxiv.org/abs/2407.19370) [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/clickdiff-click-to-induce-semantic-contact/controllable-grasp-generation-on-grab)](https://paperswithcode.com/sota/controllable-grasp-generation-on-grab?p=clickdiff-click-to-induce-semantic-contact)
 
-Official code for "ClickDiff: Click to Induce Semantic Contact Map for Controllable Grasp Generation with Diffusion Models"
+Official code for "ClickDiff: Click to Induce Semantic Contact Map for Controllable Grasp Generation with Diffusion Models", ACM MM, Oral Paper, 2024.
 
 ![pipeline_00](assets/pipeline_00.png)
 
