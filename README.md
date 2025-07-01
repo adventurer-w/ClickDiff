@@ -5,6 +5,17 @@ Official code for "ClickDiff: Click to Induce Semantic Contact Map for Controlla
 
 ![pipeline_00](assets/pipeline_00.png)
 
+## Citation
+```
+@inproceedings{li2024clickdiff,
+  title={ClickDiff: Click to Induce Semantic Contact Map for Controllable Grasp Generation with Diffusion Models},
+  author={Li, Peiming and Wang, Ziyi and Liu, Mengyuan and Liu, Hong and Chen, Chen},
+  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},
+  pages={273--281},
+  year={2024}
+}
+```
+
 ## Download dataset
 
 1. **GRAB** dataset from [https://grab.is.tue.mpg.de/](https://grab.is.tue.mpg.de/)
